@@ -1,0 +1,38 @@
+.btn:hover, .btn:focus, .btn:active, .btn.active {
+  color: #fff;
+  border-color: #ffffff;
+  background-color: #2769f1;
+}
+
+#mainNav .navbar-nav > li > a:hover, #mainNav .navbar-nav > li > a:focus:hover {
+  color: #27c300;
+}
+
+a:hover, a:focus {
+  color: #21a600;
+}
+
+#mainNav .navbar-nav > li > a.active {
+  color: #04ff00 !important;
+  background-color: transparent;
+}
+
+.btn-xl {
+}
+
+.btn {
+  color: #fff;
+  border: 1px solid;
+  border-color: #fff;
+  background: #27c300;
+}
+
+section.features .feature-item i {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 15px;
+  background: #28cb00;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
