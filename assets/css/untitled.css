@@ -36,3 +36,36 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
+.col-lg-7 {
+  /*flex: 0 0 auto;*/
+  /*width: 80%;*/
+}
+
+strong {
+  font-weight: bold;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #4cea3a;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #4cea3a;
+  transform-origin: bottom left;
+  transition: transform 0.2s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
